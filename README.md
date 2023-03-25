@@ -1,38 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p>O projeto <strong>"next-news"</strong> é um aplicativo web desenvolvido utilizando o framework Next.js e a API do NewsAPI.org para exibir notícias de várias fontes.</p>
 
-## Getting Started
+<h2>Tecnologias utilizadas</h2>
+<ul>
+  <li>Next.js</li>
+  <li>React</li>
+  <li>Tailwindcss</li>
+  <li>Axios</li>
+  <li>date-fns</li>
+  <li>NewsAPI.org</li>
+</ul>
 
-First, run the development server:
+<h2>Funcionalidades</h2>
+O aplicativo permite que os usuários pesquisem por notícias por palavra-chave e fonte, além de exibir notícias populares e recentes. As notícias são apresentadas em uma interface responsiva e intuitiva.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+<h2>Como rodar o projeto localmente</h2>
+<p>Para rodar o projeto localmente, siga os seguintes passos:</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p>Clone o repositório: git clone https://github.com/BrunoJSC/next-news.git</p>
+<p>Entre na pasta do projeto: cd next-news</p>
+<p>Instale as dependências: npm install</p>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Adicione sua chave da API do NewsAPI.org no arquivo .env.local:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+<strong>NEWS_API_KEY=sua_chave_da_api</strong>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<p>Inicie o servidor de desenvolvimento: <strong>npm run dev</strong></p>
+<p>Abra o aplicativo em um navegador: <strong>http://localhost:3000</strong></p>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<h2>Como gerar uma build de produção</h2>
+<p>Para gerar uma build de produção, siga os seguintes passos:</p>
 
-## Learn More
+Entre na pasta do projeto: <strong>cd next-news</strong>
+<p>Instale as dependências: npm install</p>
 
-To learn more about Next.js, take a look at the following resources:
+Adicione sua chave da API do NewsAPI.org no arquivo .env.local:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+NEWS_API_KEY=sua_chave_da_api
+<p>Gere a build de produção: <strong>npm run build</strong></p>
+<p>Inicie o servidor de produção: <strong>npm start</strong></p>
+<p>Abra o aplicativo em um navegador: http://localhost:3000</p>
+Contribuindo
+Contribuições são bem-vindas! Para contribuir, crie um pull request com as suas alterações e aguarde a revisão.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Licença
+Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais informações.
